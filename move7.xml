@@ -30,6 +30,15 @@
                         <field name="LIGHT">LEFT</field>
                       </block>
                     </value>
+                    <next>
+                      <block type="robot_delay" id="78" inline="true">
+                        <value name="DELAY">
+                          <block type="math_number" id="80">
+                            <field name="NUM">200</field>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
                   </block>
                 </next>
               </block>
